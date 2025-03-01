@@ -12,7 +12,7 @@ export default function Home() {
           </a>
         </h1>
         <p className="mb-1 font-light text-gray-500 md:text-lg xl:text-xl dark:text-gray-400">Sizlere daha iyi hizmet verebilmek için bakımdayız!</p>
-        <p className="font-light text-gray-500 md:text-lg xl:text-xl dark:text-gray-400">Geçici olarak bizlere <span className="cursor-pointer underline text-green-700">WhatsApp</span> üzerinden ulaşabilirsiniz.</p>
+        <p className="font-light text-gray-500 md:text-lg xl:text-xl dark:text-gray-400">Geçici olarak bizlere <a href="https://api.whatsapp.com/send?phone=905317611032" className="cursor-pointer underline text-green-700">WhatsApp</a> üzerinden ulaşabilirsiniz.</p>
       </div>
     </section>
   );
